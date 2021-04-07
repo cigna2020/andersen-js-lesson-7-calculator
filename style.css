@@ -86,3 +86,39 @@
 .property a:hover {
   color: #c5650b;
 }
+
+.reset {
+  margin-right: 10px;
+  width: 160px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: #ee4242;
+  border: 2px solid #000;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.reset:hover {
+  transform: scale(1.1);
+  border-radius: 15px;
+}
+
+.reset:active {
+  background: #5cee42;
+}
+
+@media only screen and (max-height: 700px) {
+  .calculator {
+    height: 500px;
+    background: #e0720b;
+  }
+  .display {
+    margin: 10px auto;
+  }
+
+  .keyboard {
+    height: 420px;
+  }
+}
